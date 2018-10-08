@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-        <div class="topLogo">
-            <div class="logo">JAWARA</div>
-            <div class="sublogo">ROTI & KUE</div>
-        </div>
+            <div>
+                <div class="logo column is-three-fifths is-offset-one-fifth">JAWARA</div>
+                <div class="sublogo column is-three-fifths is-offset-one-fifth">ROTI & KUE</div>
+            </div>
 
         <div class="topnav" id="myTopnav">
             <a href="/" class="active">Home</a>
@@ -30,7 +30,7 @@
     
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Navigation mounted.')
         }
     }
 </script>
