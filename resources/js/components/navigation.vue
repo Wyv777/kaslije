@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
-            <div>
+<section>
+    <div class="column">
+            
                 <div class="logo column is-three-fifths is-offset-one-fifth">JAWARA</div>
                 <div class="sublogo column is-three-fifths is-offset-one-fifth">ROTI & KUE</div>
-            </div>
 
-        <div class="topnav" id="myTopnav">
+        <div class="topnav">
             <a href="/" class="active">Home</a>
             <a href="/about">About</a>
             <a href="/catalog">Catalog</a>	
@@ -15,6 +15,8 @@
             </a>
         </div>
     </div>
+
+</section>
 </template>
 
 <script>

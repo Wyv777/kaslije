@@ -21,12 +21,13 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
         <link href="{{URL::asset('css/style.css')}}" rel="stylesheet" type="text/css">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        
         @yield('style')
     </head>
     <body>
         @yield('body')
     </body>
 </html>
-        
+
 <script type="text/javascript" src="https://admin.vuebulma.com/"></script>
 <script type="text/javascript" src="js/app.js"></script>

@@ -1,25 +1,24 @@
 <template>
+<section>   
     <div class="columns">
-        <div class="column is-6">1
-                <div class="column is-narrow">
-                    <div class="box" style="width: 200px;">
-                    <p class="title is-5">Browse</p>
-                    <p class="subtitle">OUR MENU</p>
-                    </div>
-                </div>
+        <div class="column is-6" id="bg-1">
+            <button class="boxButton">
+                <p class="is-5 gold cursive">Browse</p>
+                <p class="subtitle white">OUR MENU</p>
+            </button>
         </div>
 
-        <div class="column is-6">2
-                <div class="column is-narrow">
-                    <div class="box" style="width: 200px;">
-                    <p class="title is-5">Discover</p>
-                    <p class="subtitle">OUR STORY</p>
-                    </div>
-                </div>
+        <div class="column is-6" id="bg-2">
+            <button class="boxButton">
+                <p class="is-5 gold cursive">Discover</p>
+                <p class="subtitle white">OUR STORY</p>
+            </button>
         </div>
+        
     </div>
+</section>
 </template>
 
-<script>
-import 'bulma/css/bulma.css'
-</script>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+</style>
