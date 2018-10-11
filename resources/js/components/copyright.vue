@@ -6,7 +6,7 @@
         <div class="column is-4">
             Terms of Use | Privary Policy
         </div>
-        <div class="column is-4" style="text-align: right;">
+        <div class="column is-4 right">
             &copy;2018 Jawara. All rights reserved
         </div>
             <div class="column is-2"></div>
