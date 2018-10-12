@@ -2,7 +2,7 @@
 <section>
     <div class="columns">
         <div class="column is-2"></div>
-        <div class="column is-4">
+        <div class="column is-4 left">
             <br>
                 <p class="subtitle gold">LOCATION</p>
                 <p>- Jl. Gatsu Km 6 No 169 Medan</p>
