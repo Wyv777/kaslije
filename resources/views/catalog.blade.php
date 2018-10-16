@@ -4,5 +4,6 @@
 <div id="app">
     <navigation></navigation>
     <catalog></catalog>
+    <copyright></copyright>
 </div>
 @endsection

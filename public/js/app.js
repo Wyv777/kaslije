@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,7 +71,7 @@
 
 
 var bind = __webpack_require__(7);
-var isBuffer = __webpack_require__(23);
+var isBuffer = __webpack_require__(22);
 
 /*global toString:true*/
 
@@ -517,7 +517,7 @@ module.exports = function normalizeComponent (
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
-var normalizeHeaderName = __webpack_require__(25);
+var normalizeHeaderName = __webpack_require__(24);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -13823,12 +13823,12 @@ process.umask = function() { return 0; };
 
 
 var utils = __webpack_require__(0);
-var settle = __webpack_require__(26);
-var buildURL = __webpack_require__(28);
-var parseHeaders = __webpack_require__(29);
-var isURLSameOrigin = __webpack_require__(30);
+var settle = __webpack_require__(25);
+var buildURL = __webpack_require__(27);
+var parseHeaders = __webpack_require__(28);
+var isURLSameOrigin = __webpack_require__(29);
 var createError = __webpack_require__(10);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(31);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(30);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -13925,7 +13925,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(32);
+      var cookies = __webpack_require__(31);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -14009,7 +14009,7 @@ module.exports = function xhrAdapter(config) {
 "use strict";
 
 
-var enhanceError = __webpack_require__(27);
+var enhanceError = __webpack_require__(26);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -14085,7 +14085,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(49)
+var listToStyles = __webpack_require__(48)
 
 /*
 type StyleObject = {
@@ -14297,43 +14297,12 @@ function applyToTag (styleElement, obj) {
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(53);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(54)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../css-loader/index.js!./bulma.css", function() {
-			var newContent = require("!!../../css-loader/index.js!./bulma.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(16);
+__webpack_require__(15);
 module.exports = __webpack_require__(65);
 
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -14343,9 +14312,9 @@ module.exports = __webpack_require__(65);
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-__webpack_require__(17);
+__webpack_require__(16);
 
-window.Vue = __webpack_require__(40);
+window.Vue = __webpack_require__(39);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -14353,9 +14322,9 @@ window.Vue = __webpack_require__(40);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('navigation', __webpack_require__(43));
-Vue.component('home', __webpack_require__(46));
-Vue.component('location', __webpack_require__(51));
+Vue.component('navigation', __webpack_require__(42));
+Vue.component('home', __webpack_require__(45));
+Vue.component('location', __webpack_require__(50));
 Vue.component('copyright', __webpack_require__(57));
 Vue.component('catalog', __webpack_require__(60));
 
@@ -14364,11 +14333,11 @@ var app = new Vue({
 });
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-window._ = __webpack_require__(18);
+window._ = __webpack_require__(17);
 window.Popper = __webpack_require__(5).default;
 
 /**
@@ -14380,7 +14349,7 @@ window.Popper = __webpack_require__(5).default;
 try {
   window.$ = window.jQuery = __webpack_require__(6);
 
-  __webpack_require__(20);
+  __webpack_require__(19);
 } catch (e) {}
 
 /**
@@ -14389,7 +14358,7 @@ try {
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-window.axios = __webpack_require__(21);
+window.axios = __webpack_require__(20);
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
@@ -14425,7 +14394,7 @@ if (token) {
 // });
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -31537,10 +31506,10 @@ if (token) {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(19)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(18)(module)))
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -31568,7 +31537,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -35518,13 +35487,13 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(22);
+module.exports = __webpack_require__(21);
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35532,7 +35501,7 @@ module.exports = __webpack_require__(22);
 
 var utils = __webpack_require__(0);
 var bind = __webpack_require__(7);
-var Axios = __webpack_require__(24);
+var Axios = __webpack_require__(23);
 var defaults = __webpack_require__(3);
 
 /**
@@ -35567,14 +35536,14 @@ axios.create = function create(instanceConfig) {
 
 // Expose Cancel & CancelToken
 axios.Cancel = __webpack_require__(12);
-axios.CancelToken = __webpack_require__(38);
+axios.CancelToken = __webpack_require__(37);
 axios.isCancel = __webpack_require__(11);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(39);
+axios.spread = __webpack_require__(38);
 
 module.exports = axios;
 
@@ -35583,7 +35552,7 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports) {
 
 /*!
@@ -35610,7 +35579,7 @@ function isSlowBuffer (obj) {
 
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35618,8 +35587,8 @@ function isSlowBuffer (obj) {
 
 var defaults = __webpack_require__(3);
 var utils = __webpack_require__(0);
-var InterceptorManager = __webpack_require__(33);
-var dispatchRequest = __webpack_require__(34);
+var InterceptorManager = __webpack_require__(32);
+var dispatchRequest = __webpack_require__(33);
 
 /**
  * Create a new instance of Axios
@@ -35696,7 +35665,7 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35715,7 +35684,7 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35748,7 +35717,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35776,7 +35745,7 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35849,7 +35818,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35909,7 +35878,7 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35984,7 +35953,7 @@ module.exports = (
 
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36027,7 +35996,7 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36087,7 +36056,7 @@ module.exports = (
 
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36146,18 +36115,18 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(0);
-var transformData = __webpack_require__(35);
+var transformData = __webpack_require__(34);
 var isCancel = __webpack_require__(11);
 var defaults = __webpack_require__(3);
-var isAbsoluteURL = __webpack_require__(36);
-var combineURLs = __webpack_require__(37);
+var isAbsoluteURL = __webpack_require__(35);
+var combineURLs = __webpack_require__(36);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -36239,7 +36208,7 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36266,7 +36235,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36287,7 +36256,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36308,7 +36277,7 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36372,7 +36341,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36406,7 +36375,7 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47369,10 +47338,10 @@ Vue.compile = compileToFunctions;
 
 module.exports = Vue;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(41).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(40).setImmediate))
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -47428,7 +47397,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(42);
+__webpack_require__(41);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -47442,7 +47411,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -47635,15 +47604,15 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(8)))
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(44)
+var __vue_script__ = __webpack_require__(43)
 /* template */
-var __vue_template__ = __webpack_require__(45)
+var __vue_template__ = __webpack_require__(44)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47682,7 +47651,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47726,7 +47695,7 @@ function myFunction() {
 });
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47788,19 +47757,19 @@ if (false) {
 }
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(47)
+  __webpack_require__(46)
 }
 var normalizeComponent = __webpack_require__(2)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(50)
+var __vue_template__ = __webpack_require__(49)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47839,13 +47808,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(48);
+var content = __webpack_require__(47);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -47865,7 +47834,7 @@ if(false) {
 }
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -47879,7 +47848,7 @@ exports.push([module.i, "\n", ""]);
 
 
 /***/ }),
-/* 49 */
+/* 48 */
 /***/ (function(module, exports) {
 
 /**
@@ -47912,7 +47881,7 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 50 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47967,13 +47936,13 @@ if (false) {
 }
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(52)
+var __vue_script__ = __webpack_require__(51)
 /* template */
 var __vue_template__ = __webpack_require__(56)
 /* template functional */
@@ -48014,12 +47983,12 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css__);
 //
 //
@@ -48052,6 +48021,37 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(53);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(54)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../css-loader/index.js!./bulma.css", function() {
+			var newContent = require("!!../../css-loader/index.js!./bulma.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ }),
 /* 53 */
@@ -48648,12 +48648,8 @@ module.exports = Component.exports
 
 /***/ }),
 /* 58 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_bulma_css_bulma_css__);
 //
 //
 //
@@ -48671,8 +48667,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-
-
 
 /***/ }),
 /* 59 */
@@ -48897,46 +48891,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -48948,298 +48902,249 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "tile is-full" }, [
-      _c("div", { staticClass: "tile is-ancestor" }, [
-        _c("div", { staticClass: "tile is-parent" }, [
-          _c(
-            "div",
-            { staticClass: "tile is-child box" },
-            [
-              _c(
-                "tabs",
-                { attrs: { type: "boxed" } },
-                [
-                  _c("tab-pane", { attrs: { label: "Pictures" } }, [
-                    _vm._v("Pictures Tab")
-                  ]),
-                  _vm._v(" "),
-                  _c("tab-pane", { attrs: { label: "Music" } }, [
-                    _vm._v("Music Tab")
-                  ]),
-                  _vm._v(" "),
-                  _c("tab-pane", { attrs: { label: "Videos" } }, [
-                    _vm._v("Video Tab")
-                  ]),
-                  _vm._v(" "),
-                  _c("tab-pane", { attrs: { label: "Documents" } }, [
-                    _vm._v("Document Tab")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "tabs",
-                { attrs: { type: "toggle" } },
-                [
-                  _c("tab-pane", { attrs: { label: "Pictures" } }, [
-                    _vm._v("Pictures Tab")
-                  ]),
-                  _vm._v(" "),
-                  _c("tab-pane", { attrs: { label: "Music" } }, [
-                    _vm._v("Music Tab")
-                  ]),
-                  _vm._v(" "),
-                  _c("tab-pane", { attrs: { label: "Videos" } }, [
-                    _vm._v("Video Tab")
-                  ]),
-                  _vm._v(" "),
-                  _c("tab-pane", { attrs: { label: "Documents" } }, [
-                    _vm._v("Document Tab")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "tabs",
-                {
-                  attrs: {
-                    type: "boxed",
-                    "is-fullwidth": true,
-                    alignment: "centered",
-                    size: "large"
-                  }
-                },
-                [
-                  _c(
-                    "tab-pane",
-                    { attrs: { label: "Pictures", icon: "fa fa-image" } },
-                    [_vm._v("Pictures Tab")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "tab-pane",
-                    { attrs: { label: "Music", icon: "fa fa-music" } },
-                    [_vm._v("Music Tab")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "tab-pane",
-                    { attrs: { label: "Videos", icon: "fa fa-film" } },
-                    [_vm._v("Video Tab")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "tab-pane",
-                    {
-                      attrs: { label: "Documents", icon: "fa fa-file-text-o" }
-                    },
-                    [_vm._v("Document Tab")]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ])
-      ])
-    ]),
-    _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _vm._m(2)
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "tile is-ancestor" }, [
-      _c("div", { staticClass: "tile is-parent" }, [
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("One")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ]),
-        _vm._v(" "),
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Two")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "tile is-parent" }, [
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Three")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ]),
-        _vm._v(" "),
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Four")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "tile is-ancestor" }, [
-      _c("div", { staticClass: "tile is-parent" }, [
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("One")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ]),
-        _vm._v(" "),
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Two")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "tile is-parent" }, [
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Three")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ]),
-        _vm._v(" "),
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Four")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "tile is-ancestor" }, [
-      _c("div", { staticClass: "tile is-parent" }, [
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314premium-cookie-set.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("One")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ]),
-        _vm._v(" "),
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314premium-cookie-set.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Two")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "tile is-parent" }, [
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314premium-cookie-set.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Three")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ]),
-        _vm._v(" "),
-        _c("article", { staticClass: "tile is-child box" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "http://www.tlj.co.id/upload/product/20160314premium-cookie-set.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v("Four")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-        ])
-      ])
+    return _c("section", [
+      _c(
+        "div",
+        { staticClass: "container", staticStyle: { "margin-bottom": "3%" } },
+        [
+          _c("div", { staticClass: "columns is-multiline is-mobile" }, [
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("One")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Two")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Three")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Four")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("One")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Two")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Three")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Four")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("One")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Two")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Three")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", { staticClass: "title" }, [_vm._v("Four")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            )
+          ])
+        ]
+      )
     ])
   }
 ]
