@@ -30,12 +30,6 @@ body
     display: block
     background-color: white
 
-.right
-    text-align:right
-
-.left
-    text-align:left
-
 .logo
     text-align: center
     font-size: 2em
@@ -94,10 +88,10 @@ body
 .gold
     color:#B3843F !important
 
-.fa 
-    width: 20px
+.fa
+    width: 2em
     color: rgb(75, 75, 75)
-    font-size: 40px
+    font-size: 20px
 
 .fa:hover 
     opacity: 0.7
@@ -107,25 +101,35 @@ body
     display: block
     text-align: left
 
-.copyright
-    text-align:center
+.topnav .responsive 
+    position: relative
 
-.right
-    text-align:center
+.topnav.responsive .icon 
+    +mobile()
+        position: absolute
+        right: 0
+        top: 0
+      
+.topnav a.icon 
+    +tablet-only()
+        float: right
+        display: block
+
+.column.is-6, .column.is-6-tablet 
+    +tablet()
+        display: flex !important
+        justify-content: left !important
+        width: 100%
+
+.left, .right, .copyright
+    text-align: center
 
 .left
-    text-align: center
-    display: flex
-    align-items: center
-
-.copyright
-    text-align:center
+    +desktop()
+        text-align: left
 
 .right
-    text-align:center
+    +desktop()
+        text-align: right
 
-.left
-    text-align: center
-    display: flex
-    align-items: center
-
+    

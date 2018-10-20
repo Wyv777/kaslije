@@ -1,9 +1,9 @@
 <template>
 <section>
     <!-- <div class="columns is-narrow"> -->
-        <div class="columns copyright" style="background-color:#735A36; color:white;">
+        <div class="columns" style="background-color:#735A36; color:white;">
             <div class="column is-2"></div>
-                <div class="column is-4">
+                <div class="column is-4 left">
                     Terms of Use | Privary Policy
                 </div>
                 <div class="column is-4 right">
