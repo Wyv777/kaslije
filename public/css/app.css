@@ -12165,6 +12165,39 @@ body {
   font-size: 2.7em;
 }
 
+.topnav {
+  font-family: playfair;
+  font-style: italic;
+  overflow: hidden;
+  margin: 0 10% 0 10%;
+  border-top: 1px grey solid;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-burger {
+    -ms-flex-item-align: center !important;
+        align-self: center !important;
+  }
+}
+
+.is-transparent {
+  display: block;
+}
+
+@media screen and (min-width: 769px), print {
+  .is-transparent {
+    display: none !important;
+  }
+}
+
 #bg-1 {
   background: url("/img/left.jpg") no-repeat;
 }
@@ -12193,14 +12226,6 @@ body {
   font-family: playfair;
   text-align: center;
   letter-spacing: 0.1em;
-}
-
-.topnav {
-  font-family: playfair;
-  font-style: italic;
-  overflow: hidden;
-  margin: 0 10% 0 10%;
-  border-top: 1px grey solid;
 }
 
 .boxButton {
