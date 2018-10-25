@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/catalog', function () {
+    return view('catalog');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/adminpage', function () {
+    return view('adminpage');
+});
+
