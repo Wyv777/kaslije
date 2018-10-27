@@ -9,65 +9,53 @@
 <!-- section1 -->
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="title">One</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="title">Two</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="title">Three</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="title">Four</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 <!-- section2 -->
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">One</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">Two</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">Three</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">Four</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 	
 <!-- section3 -->
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">One</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">Two</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">Three</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
 				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="title">Four</p>
 				<p class="subtitle">Subtitle</p>
 			</div>
 </div>

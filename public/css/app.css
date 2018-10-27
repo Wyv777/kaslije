@@ -12150,6 +12150,11 @@ body {
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 @font-face {
   font-family: poppins;
   src: url(https://fonts.gstatic.com/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2);
@@ -12204,6 +12209,10 @@ body {
 
 #bg-2 {
   background: url("/img/right.jpg") no-repeat;
+}
+
+#bg-3 {
+  background: url("/img/jawara3.jpg") no-repeat;
 }
 
 .container {
@@ -12336,6 +12345,10 @@ body {
   .right {
     text-align: right;
   }
+}
+
+.copy a {
+  color: white;
 }
 
 .navbar-laravel {

@@ -514,7 +514,7 @@ function applyToTag (styleElement, obj) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(5);
-module.exports = __webpack_require__(33);
+module.exports = __webpack_require__(35);
 
 
 /***/ }),
@@ -541,6 +541,7 @@ Vue.component('home', __webpack_require__(13));
 Vue.component('location', __webpack_require__(18));
 Vue.component('copyright', __webpack_require__(25));
 Vue.component('catalog', __webpack_require__(28));
+Vue.component('aboutus', __webpack_require__(33));
 
 var app = new Vue({
   el: '#app'
@@ -12134,7 +12135,7 @@ var staticRenderFns = [
               _c(
                 "div",
                 {
-                  staticClass: "navbar-burger burger",
+                  staticClass: "navbar-burger burger is-centered",
                   attrs: { "data-target": "navbarExampleTransparentExample" }
                 },
                 [_c("span"), _vm._v(" "), _c("span"), _vm._v(" "), _c("span")]
@@ -13136,10 +13137,10 @@ var staticRenderFns = [
         [
           _c("div", { staticClass: "column is-2" }),
           _vm._v(" "),
-          _c("div", { staticClass: "column is-4 left" }, [
-            _vm._v(
-              "\r\n                    Terms of Use | Privary Policy\r\n                "
-            )
+          _c("div", { staticClass: "column is-4 left copy" }, [
+            _c("a", [_vm._v("Terms of Use")]),
+            _vm._v(" | "),
+            _c("a", [_vm._v("Privacy Policy")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-4 right" }, [
@@ -13325,18 +13326,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -13376,7 +13365,22 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("One")]),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
+                  }
+                }),
                 _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
@@ -13395,8 +13399,6 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Two")]),
-                _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
             ),
@@ -13414,8 +13416,6 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Three")]),
-                _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
             ),
@@ -13429,11 +13429,9 @@ var staticRenderFns = [
                 _c("img", {
                   attrs: {
                     src:
-                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
                   }
                 }),
-                _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Four")]),
                 _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
@@ -13452,7 +13450,22 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("One")]),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
                 _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
@@ -13471,7 +13484,22 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Two")]),
+                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
+                  }
+                }),
                 _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
@@ -13490,8 +13518,6 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Three")]),
-                _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
             ),
@@ -13509,8 +13535,6 @@ var staticRenderFns = [
                   }
                 }),
                 _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Four")]),
-                _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
             ),
@@ -13527,65 +13551,6 @@ var staticRenderFns = [
                       "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
                   }
                 }),
-                _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("One")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Two")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Three")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "title" }, [_vm._v("Four")]),
                 _vm._v(" "),
                 _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
               ]
@@ -13607,6 +13572,161 @@ if (false) {
 
 /***/ }),
 /* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(34)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/js/components/aboutus.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2636d220", Component.options)
+  } else {
+    hotAPI.reload("data-v-2636d220", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "container", staticStyle: { margin: "4%" } },
+      [
+        _c("div", { staticClass: "tile is-ancestor" }, [
+          _c("div", { staticClass: "tile is-parent" }, [
+            _c("article", { staticClass: "tile is-child" }, [
+              _c("img", {
+                staticStyle: { "max-height": "200px" },
+                attrs: { src: "https://i.imgur.com/x7ep8Xa.jpg" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "tile is-parent" }, [
+            _c("article", { staticClass: "tile is-child" }, [
+              _c("p", [
+                _vm._v(
+                  '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."'
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "tile is-parent" }, [
+            _c("article", { staticClass: "tile is-child" }, [
+              _c("img", {
+                staticStyle: { "max-height": "200px" },
+                attrs: { src: "https://imgur.com/XrWfq2g.jpg" }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "tile is-ancestor" }, [
+          _c("div", { staticClass: "tile is-parent" }, [
+            _c(
+              "article",
+              {
+                staticClass: "tile is-child",
+                staticStyle: { "padding-top": "20%" }
+              },
+              [
+                _c("p", [
+                  _vm._v(
+                    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
+                  )
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "tile is-parent" }, [
+            _c("article", { staticClass: "tile is-child" }, [
+              _c("img", {
+                staticStyle: { "max-height": "280px" },
+                attrs: { src: "https://i.imgur.com/bdv0kDB.jpg?1" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "tile is-parent" }, [
+            _c(
+              "article",
+              {
+                staticClass: "tile is-child",
+                staticStyle: { "padding-top": "20%" }
+              },
+              [
+                _c("p", [
+                  _vm._v(
+                    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
+                  )
+                ])
+              ]
+            )
+          ])
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-2636d220", module.exports)
+  }
+}
+
+/***/ }),
+/* 35 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

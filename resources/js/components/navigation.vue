@@ -13,7 +13,7 @@
         <div class="column">
             <div class="navbar is-transparent">
                 <div class="navbar-brand">
-                    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <div class="navbar-burger burger is-centered" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>
                     <span></span>
