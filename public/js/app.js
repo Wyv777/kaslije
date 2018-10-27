@@ -12056,6 +12056,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -12108,7 +12109,7 @@ var staticRenderFns = [
         _c(
           "div",
           { staticClass: "logo column is-three-fifths is-offset-one-fifth" },
-          [_vm._v("JAWARA")]
+          [_c("a", { attrs: { href: "/" } }, [_vm._v("JAWARA")])]
         ),
         _vm._v(" "),
         _c(

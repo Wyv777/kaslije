@@ -1,7 +1,8 @@
 <template>
 <section>
     <div class="column">
-        <div class="logo column is-three-fifths is-offset-one-fifth">JAWARA</div>
+        <div class="logo column is-three-fifths is-offset-one-fifth">
+            <a href="/">JAWARA</a></div>
         <div class="sublogo column is-three-fifths is-offset-one-fifth">ROTI & KUE</div>
         <div class="topnav">
             <a href="/" class="active">Home</a>

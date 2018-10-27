@@ -12231,6 +12231,10 @@ body {
   margin-bottom: -1.8rem;
 }
 
+.logo a {
+  color: #000d3d;
+}
+
 .sublogo {
   font-family: playfair;
   text-align: center;
