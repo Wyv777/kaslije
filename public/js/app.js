@@ -13633,88 +13633,61 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "container", staticStyle: { margin: "4%" } },
-      [
-        _c("div", { staticClass: "tile is-ancestor" }, [
-          _c("div", { staticClass: "tile is-parent" }, [
-            _c("article", { staticClass: "tile is-child" }, [
-              _c("img", {
-                staticStyle: { "max-height": "200px" },
-                attrs: { src: "https://i.imgur.com/x7ep8Xa.jpg" }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "tile is-parent" }, [
-            _c("article", { staticClass: "tile is-child" }, [
-              _c("p", [
-                _vm._v(
-                  '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."'
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "tile is-parent" }, [
-            _c("article", { staticClass: "tile is-child" }, [
-              _c("img", {
-                staticStyle: { "max-height": "200px" },
-                attrs: { src: "https://imgur.com/XrWfq2g.jpg" }
-              })
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "tile is-ancestor content" }, [
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child" }, [
+            _c("img", { attrs: { src: "https://i.imgur.com/x7ep8Xa.jpg" } })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child" }, [
+            _c("p", [
+              _vm._v(
+                '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
+              )
             ])
           ])
         ]),
         _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("div", { staticClass: "tile is-ancestor" }, [
-          _c("div", { staticClass: "tile is-parent" }, [
-            _c(
-              "article",
-              {
-                staticClass: "tile is-child",
-                staticStyle: { "padding-top": "20%" }
-              },
-              [
-                _c("p", [
-                  _vm._v(
-                    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
-                  )
-                ])
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "tile is-parent" }, [
-            _c("article", { staticClass: "tile is-child" }, [
-              _c("img", {
-                staticStyle: { "max-height": "280px" },
-                attrs: { src: "https://i.imgur.com/bdv0kDB.jpg?1" }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "tile is-parent" }, [
-            _c(
-              "article",
-              {
-                staticClass: "tile is-child",
-                staticStyle: { "padding-top": "20%" }
-              },
-              [
-                _c("p", [
-                  _vm._v(
-                    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
-                  )
-                ])
-              ]
-            )
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child" }, [
+            _c("img", { attrs: { src: "https://imgur.com/XrWfq2g.jpg" } })
           ])
         ])
-      ]
-    )
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "tile is-ancestor content" }, [
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child " }, [
+            _c("p", [
+              _vm._v(
+                '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child" }, [
+            _c("img", { attrs: { src: "https://i.imgur.com/4WlDeAb.jpg?1" } })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child" }, [
+            _c("p", [
+              _vm._v(
+                '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."'
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true

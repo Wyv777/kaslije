@@ -12155,6 +12155,14 @@ body {
   height: 100%;
 }
 
+.content img {
+  max-height: 250px;
+}
+
+.content p {
+  margin: 7% !important;
+}
+
 @font-face {
   font-family: poppins;
   src: url(https://fonts.gstatic.com/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2);
@@ -12266,6 +12274,7 @@ body {
   text-decoration: none;
   font-size: 17px;
   margin-bottom: 0.5%;
+  color: #543f0d;
 }
 
 .topnav a:hover {
