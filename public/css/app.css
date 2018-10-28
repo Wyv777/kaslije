@@ -12434,6 +12434,99 @@ body {
   padding: 5px;
 }
 
+.contact * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.contact .container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contact #contact input[type="text"],
+.contact #contact input[type="email"],
+.contact #contact input[type="tel"],
+.contact #contact input[type="url"],
+.contact #contact textarea,
+.contact #contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.contact #contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+.contact fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.contact #contact input[type="text"],
+.contact #contact input[type="email"],
+.contact #contact input[type="tel"],
+.contact #contact input[type="url"],
+.contact #contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+.contact #contact input[type="text"]:hover,
+.contact #contact input[type="email"]:hover,
+.contact #contact input[type="tel"]:hover,
+.contact #contact input[type="url"]:hover,
+.contact #contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
+}
+
+.contact #contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact #contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #817128;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact #contact button[type="submit"]:hover {
+  background: #09C;
+}
+
+.contact #contact button[type="submit"]:active {
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.contact #contact input:focus,
+.contact #contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

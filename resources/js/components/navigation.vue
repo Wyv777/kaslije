@@ -1,4 +1,5 @@
 <template>
+<header>
 <section>
     <div class="column">
         <div class="logo column is-three-fifths is-offset-one-fifth">
@@ -32,8 +33,8 @@
             </div>
         </div>
     </div>
-
 </section>
+</header>
 </template>
 
 <script>
@@ -64,9 +65,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-    export default {
-        mounted() {
-            console.log('Navigation mounted.')
-        }
-    }
 </script>
