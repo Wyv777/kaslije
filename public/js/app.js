@@ -14033,67 +14033,69 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container contact" }, [
-      _c("form", { attrs: { id: "contact", action: "", method: "post" } }, [
-        _c("div", { staticClass: "title" }, [_vm._v("Quick Contact")]),
-        _vm._v(" "),
-        _c("fieldset", [
-          _c("input", {
-            attrs: {
-              placeholder: "Name",
-              type: "text",
-              tabindex: "1",
-              required: "",
-              autofocus: ""
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("fieldset", [
-          _c("input", {
-            attrs: {
-              placeholder: "Email Address",
-              type: "email",
-              tabindex: "2",
-              required: ""
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("fieldset", [
-          _c("input", {
-            attrs: {
-              placeholder: "Phone Number",
-              type: "tel",
-              tabindex: "3",
-              required: ""
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("fieldset", [
-          _c("textarea", {
-            attrs: {
-              placeholder: "Type your Message Here....",
-              tabindex: "5",
-              required: ""
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("fieldset", [
-          _c(
-            "button",
-            {
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "contactus" }, [
+        _c("form", { attrs: { id: "contact", action: "", method: "post" } }, [
+          _c("div", { staticClass: "title" }, [_vm._v("Quick Contact")]),
+          _vm._v(" "),
+          _c("fieldset", [
+            _c("input", {
               attrs: {
-                name: "submit",
-                type: "submit",
-                id: "contact-submit",
-                "data-submit": "...Sending"
+                placeholder: "Name",
+                type: "text",
+                tabindex: "1",
+                required: "",
+                autofocus: ""
               }
-            },
-            [_vm._v("Submit")]
-          )
+            })
+          ]),
+          _vm._v(" "),
+          _c("fieldset", [
+            _c("input", {
+              attrs: {
+                placeholder: "Email Address",
+                type: "email",
+                tabindex: "2",
+                required: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("fieldset", [
+            _c("input", {
+              attrs: {
+                placeholder: "Phone Number",
+                type: "tel",
+                tabindex: "3",
+                required: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("fieldset", [
+            _c("textarea", {
+              attrs: {
+                placeholder: "Type your Message Here....",
+                tabindex: "5",
+                required: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("fieldset", [
+            _c(
+              "button",
+              {
+                attrs: {
+                  name: "submit",
+                  type: "submit",
+                  id: "contact-submit",
+                  "data-submit": "...Sending"
+                }
+              },
+              [_vm._v("Submit")]
+            )
+          ])
         ])
       ])
     ])
