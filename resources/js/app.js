@@ -19,6 +19,7 @@ Vue.component('location', require('./components/location.vue'));
 Vue.component('copyright', require('./components/copyright.vue'));
 Vue.component('catalog', require('./components/catalog.vue'));
 Vue.component('aboutus', require('./components/aboutus.vue'));
+Vue.component('contactus', require('./components/contactus.vue'));
 
 const app = new Vue({
     el: '#app'

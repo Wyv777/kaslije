@@ -514,7 +514,7 @@ function applyToTag (styleElement, obj) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(5);
-module.exports = __webpack_require__(35);
+module.exports = __webpack_require__(37);
 
 
 /***/ }),
@@ -542,6 +542,7 @@ Vue.component('location', __webpack_require__(18));
 Vue.component('copyright', __webpack_require__(25));
 Vue.component('catalog', __webpack_require__(28));
 Vue.component('aboutus', __webpack_require__(33));
+Vue.component('contactus', __webpack_require__(35));
 
 var app = new Vue({
   el: '#app'
@@ -13170,21 +13171,17 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-function injectStyle (ssrContext) {
-  if (disposed) return
-  __webpack_require__(29)
-}
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = __webpack_require__(31)
+var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(32)
+var __vue_template__ = __webpack_require__(39)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = injectStyle
+var __vue_styles__ = null
 /* scopeId */
-var __vue_scopeId__ = "data-v-380b2d1e"
+var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -13217,361 +13214,10 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(30);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(3)("39902375", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-380b2d1e\",\"scoped\":true,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./catalog.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-380b2d1e\",\"scoped\":true,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./catalog.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\nimg[data-v-380b2d1e]{\r\n\tmax-width: 50%;\n}\n.is-parent[data-v-380b2d1e]{\r\n\tpadding:0px !important;\n}\n@media screen and (max-width: 600px) {\n.tile .is-parent[data-v-380b2d1e]{\r\n\t\tfloat: left;\r\n\t\twidth:50%;\n}\n}\n@media screen and (max-width: 768px), print{\n.tile .is-parent[data-v-380b2d1e]{\r\n\t\tfloat: left;\r\n\t\twidth:50%;\n}\n}\r\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 31 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({});
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", [
-      _c(
-        "div",
-        { staticClass: "container", staticStyle: { "margin-bottom": "3%" } },
-        [
-          _c("div", { staticClass: "row" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "columns is-multiline is-mobile" }, [
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "column is-3-tablet is-6-mobile product-list-item"
-              },
-              [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"
-                  }
-                }),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle" }, [_vm._v("Subtitle")])
-              ]
-            )
-          ])
-        ]
-      )
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-380b2d1e", module.exports)
-  }
-}
-
-/***/ }),
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13634,7 +13280,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "tile is-ancestor content" }, [
+      _c("div", { staticClass: "tile is-ancestor aboutuscontent" }, [
         _c("div", { staticClass: "tile is-parent" }, [
           _c("article", { staticClass: "tile is-child" }, [
             _c("img", { attrs: { src: "https://i.imgur.com/x7ep8Xa.jpg" } })
@@ -13660,7 +13306,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c("div", { staticClass: "tile is-ancestor content" }, [
+      _c("div", { staticClass: "tile is-ancestor aboutuscontent" }, [
         _c("div", { staticClass: "tile is-parent" }, [
           _c("article", { staticClass: "tile is-child " }, [
             _c("p", [
@@ -13701,9 +13347,496 @@ if (false) {
 
 /***/ }),
 /* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(36)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/js/components/contactus.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-5cd29603", Component.options)
+  } else {
+    hotAPI.reload("data-v-5cd29603", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div")
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-5cd29603", module.exports)
+  }
+}
+
+/***/ }),
+/* 37 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 38 */,
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c(
+        "div",
+        { staticClass: "container", staticStyle: { "margin-bottom": "3%" } },
+        [
+          _c("div", { staticClass: "columns is-multiline is-mobile" }, [
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/wA5xSaH.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Fruit Cake")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/wA5xSaH.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Fruit Cake")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/wA5xSaH.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Fruit Cake")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/wA5xSaH.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Fruit Cake")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/MmCj19y.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Hello Pie")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/MmCj19y.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Hello Pie")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/MmCj19y.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Hello Pie")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "column is-3-tablet is-6-mobile product-list-item"
+              },
+              [
+                _c("div", { staticClass: "content" }, [
+                  _c("div", { staticClass: "content-overlay" }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "content-image",
+                    attrs: { src: "https://i.imgur.com/MmCj19y.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "content-details fadeIn-top" }, [
+                    _c("div", { staticClass: "product-name" }, [
+                      _vm._v("Hello Pie")
+                    ]),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/qCPFDzu.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/SUKIlnk.png",
+                        href: "#"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "product-store",
+                      attrs: {
+                        src: "https://i.imgur.com/7ajbA3A.png",
+                        href: "#"
+                      }
+                    })
+                  ])
+                ])
+              ]
+            )
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-380b2d1e", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

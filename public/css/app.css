@@ -12155,11 +12155,11 @@ body {
   height: 100%;
 }
 
-.content img {
+.aboutuscontent img {
   max-height: 250px;
 }
 
-.content p {
+.aboutuscontent p {
   margin: 7% !important;
 }
 
@@ -12362,6 +12362,76 @@ body {
 
 .copy a {
   color: white;
+}
+
+.main-title {
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-top {
+  top: 20%;
+}
+
+.fadeIn-top .product-name {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: playfair;
+}
+
+.fadeIn-top .product-store {
+  width: 25%;
+  padding: 5px;
 }
 
 .navbar-laravel {

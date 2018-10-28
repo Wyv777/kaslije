@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <div class="tile is-ancestor content">
+    <div class="tile is-ancestor aboutuscontent">
       <div class="tile is-parent">
         <article class="tile is-child">
         <img src="https://i.imgur.com/x7ep8Xa.jpg">
@@ -21,7 +21,7 @@
 
     <br>
 
-    <div class="tile is-ancestor content">
+    <div class="tile is-ancestor aboutuscontent">
         <div class="tile is-parent">
         <article class="tile is-child ">
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>

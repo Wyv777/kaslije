@@ -2,91 +2,111 @@
 <section>
 	<div class="container" style="margin-bottom:3%;">
 <!-- nav -->
-<div class=row>
 	
-</div>
-	<div class="columns is-multiline is-mobile">
-<!-- section1 -->
+<!-- nav end -->
+		<div class="columns is-multiline is-mobile">
+	<!-- section1 -->
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/wA5xSaH.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Fruit Cake</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/wA5xSaH.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Fruit Cake</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/wA5xSaH.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Fruit Cake</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-royal-brownie-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/wA5xSaH.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Fruit Cake</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
-<!-- section2 -->
+		<!-- section end -->
+
+		<!-- section2 -->
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
-			</div>
-			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
-			</div>
-			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
-			</div>
-			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
-			</div>
-	
-<!-- section3 -->
-			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
-			</div>
-			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/MmCj19y.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Hello Pie</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/MmCj19y.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Hello Pie</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
 			<div class="column is-3-tablet is-6-mobile product-list-item">
-				<img src="http://www.tlj.co.id/upload/product/20160314single-pack-chocochip-cookie.jpg"/>
-				<p class="subtitle">Subtitle</p>
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/MmCj19y.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Hello Pie</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
 			</div>
-</div>
+			<div class="column is-3-tablet is-6-mobile product-list-item">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img class="content-image" src="https://i.imgur.com/MmCj19y.jpg">
+					<div class="content-details fadeIn-top">
+					<div class="product-name">Hello Pie</div><br>
+						<img src="https://i.imgur.com/qCPFDzu.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/SUKIlnk.png" href="#" class="product-store">
+						<img src="https://i.imgur.com/7ajbA3A.png" href="#" class="product-store">
+					</div>
+  				</div>
+			</div>
+		<!-- section end -->
+		</div>
 	</div>
 </section>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style scoped>
-img{
-	max-width: 50%;
-}
-.is-parent{
-	padding:0px !important;
-}
-@media screen and (max-width: 600px) {
-	.tile .is-parent{
-		float: left;
-		width:50%;
-	}
-}
-
-@media screen and (max-width: 768px), print{
-	.tile .is-parent{
-		float: left;
-		width:50%;
-	}
-}
-</style>
