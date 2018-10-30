@@ -1,5 +1,5 @@
 <template>
-<section>
+<section class="section is-marginless is-paddingless">
 	<div class="container" style="margin-bottom:3%;">
 <!-- nav -->
 	

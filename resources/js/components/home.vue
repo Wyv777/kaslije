@@ -1,5 +1,5 @@
 <template>
-<section>   
+<section class="section is-marginless is-paddingless">
     <div class="columns">
         <div class="column is-6" id="bg-1">
             <button href="/catalog" class="boxButton">

@@ -1,5 +1,5 @@
 <template>
-<section>
+<section class="section is-marginless is-paddingless">
     <!-- <div class="columns is-narrow"> -->
         <div class="columns" style="background-color:#735A36; color:white;">
             <div class="column is-2"></div>

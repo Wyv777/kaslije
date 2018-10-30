@@ -1,6 +1,6 @@
 <template>
 <header>
-<section>
+<section class="section is-marginless is-paddingless">
     <div class="column">
         <div class="logo column is-three-fifths is-offset-one-fifth">
             <a href="/">JAWARA</a></div>

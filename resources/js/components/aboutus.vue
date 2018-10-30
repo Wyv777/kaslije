@@ -1,4 +1,5 @@
 <template>
+<section class="section is-marginless is-paddingless">
 <div class="container">
     <div class="tile is-ancestor aboutuscontent">
       <div class="tile is-parent">
@@ -40,5 +41,5 @@
       
     </div>
 </div>
-     
+</section>
 </template>

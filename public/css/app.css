@@ -12140,23 +12140,6 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
-html {
-  max-width: 100%;
-  overflow-y: inherit !important;
-  overflow-x: hidden !important;
-}
-
-@media screen and (max-width: 768px) {
-  html {
-    max-width: 97%;
-  }
-}
-
-body {
-  padding: 0;
-  margin: 0 !important;
-}
-
 .aboutuscontent img {
   max-height: 250px;
 }

@@ -1,4 +1,5 @@
 <template>
+<section class="section is-marginless is-paddingless">
     <div class="container">
         <div class="contactus"> 
             <form id="contact" action="" method="post">
@@ -22,6 +23,7 @@
             </form>
         </div>
     </div>
+</section>
 </template>
 
 <style scoped>
