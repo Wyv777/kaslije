@@ -12141,18 +12141,20 @@ label.panel-block:hover {
 }
 
 html {
+  max-width: 100%;
   overflow-y: inherit !important;
+  overflow-x: hidden !important;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    max-width: 97%;
+  }
 }
 
 body {
-  background: white;
   padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  height: 100%;
+  margin: 0 !important;
 }
 
 .aboutuscontent img {
@@ -12425,8 +12427,9 @@ body {
 .fadeIn-top .product-name {
   color: white;
   text-transform: uppercase;
-  font-size: 1.5em;
-  font-family: playfair;
+  font-size: 1.3em;
+  font-family: poppins;
+  border-bottom: 1px solid grey;
 }
 
 .fadeIn-top .product-store {
