@@ -1,5 +1,5 @@
 <template>
-<section>
+<section class="section is-marginless is-paddingless">
     <div class="columns">
         <div class="column is-2"></div>
         <div class="column is-4 left">
