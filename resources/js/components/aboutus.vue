@@ -4,7 +4,7 @@
     <div class="tile is-ancestor aboutuscontent">
       <div class="tile is-parent">
         <article class="tile is-child">
-        <img src="https://i.imgur.com/x7ep8Xa.jpg">
+        <img src="/img/aboutus1.jpg">
         </article>
       </div>
       <div class="tile is-parent">
@@ -14,7 +14,7 @@
       </div>
       <div class="tile is-parent">
         <article class="tile is-child">
-        <img src="https://imgur.com/XrWfq2g.jpg">
+        <img src="/img/aboutus2.jpg">
         </article>
       </div>
 
@@ -30,7 +30,7 @@
       </div>
       <div class="tile is-parent">
         <article class="tile is-child">
-        <img src="https://i.imgur.com/4WlDeAb.jpg?1">
+        <img src="/img/aboutus3.jpg">
         </article>
       </div>
       <div class="tile is-parent">

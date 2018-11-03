@@ -5,7 +5,7 @@
         <div class="logo column is-three-fifths is-offset-one-fifth">
             <a href="/">JAWARA</a></div>
         <div class="sublogo column is-three-fifths is-offset-one-fifth">ROTI & KUE</div>
-        <div class="topnav">
+        <div class="topnav is-clipped">
             <a href="/" class="active">Home</a>
             <a href="/about">About</a>
             <a href="/catalog">Catalog</a>	
