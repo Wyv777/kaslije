@@ -48,9 +48,6 @@ html
 #bg-2
     background: url('/img/right.jpg') no-repeat
 
-#bg-3
-    background: url('/img/jawara3.jpg') no-repeat
-
 .container 
     position: relative
     text-align: center
@@ -164,6 +161,24 @@ html
     text-align: center
     text-transform: capitalize
     padding: 0.7em 0
+
+.catalog
+    text-transform: lowercase
+    font-family: playfair
+    border-radius: 0 !important
+    a
+        color: #B3843F
+        padding: 0 30px
+    a:hover
+        color: white
+    +mobile()
+        a
+            padding: 0
+
+.catalog:hover
+    background-color: #B3843F
+    a
+        color: white
 
 .content
     position: relative
