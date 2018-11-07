@@ -2,15 +2,17 @@
 <section class="section is-marginless is-paddingless">
 	<div class="container" style="margin-bottom:3%;">
 		<!-- main menu navigation -->
-		<div class="is-divider" data-content="|"></div>
-		<div class="buttons has-addons is-centered">
-			<span class="button"><a href="#cake">Cake</a></span>
-			<span class="button"><a href="#bread">Bread</a></span>
-			<span class="button"><a href="#cookies">Cookies</a></span>
-			<span class="button"><a href="#snacks">Snacks</a></span>
-			<span class="button"><a href="#others">Others</a></span>
+		<img src="/img/divider1.png">
+		<div class="column is-12">
+			<div class="buttons has-addons is-centered">
+				<span class="button catalog"><a href="#cake">Cake</a></span>
+				<span class="button catalog"><a href="#bread">Bread</a></span>
+				<span class="button catalog"><a href="#cookies">Cookies</a></span>
+				<span class="button catalog"><a href="#snacks">Snacks</a></span>
+				<span class="button catalog"><a href="#others">Others</a></span>
+			</div>
 		</div>
-		<div class="is-divider" data-content="|"></div>
+		<img src="/img/divider2.png">
 		<!-- main menu ends -->
 	<div class="columns is-multiline is-mobile">
 	<!-- section 1 submenu -->
