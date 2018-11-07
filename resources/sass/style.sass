@@ -1,3 +1,6 @@
+html
+    scroll-behavior: smooth
+    
 .aboutuscontent
     img
         max-height: 250px
@@ -19,7 +22,6 @@
 .topnav 
     font-family: playfair
     font-style: italic
-    overflow: hidden
     margin: 0 10% 0 10%
     border-top: 1px grey solid
     text-align: center
@@ -45,9 +47,6 @@
 
 #bg-2
     background: url('/img/right.jpg') no-repeat
-
-#bg-3
-    background: url('/img/jawara3.jpg') no-repeat
 
 .container 
     position: relative
@@ -180,6 +179,24 @@
     text-transform: capitalize
     padding: 0.7em 0
 
+.catalog
+    text-transform: lowercase
+    font-family: playfair
+    border-radius: 0 !important
+    a
+        color: #B3843F
+        padding: 0 30px
+    a:hover
+        color: white
+    +mobile()
+        a
+            padding: 0
+
+.catalog:hover
+    background-color: #B3843F
+    a
+        color: white
+
 .content
     position: relative
     width: 90%
@@ -228,6 +245,12 @@
     .product-store
         width: 25%
         padding: 5px
+
+.is-sticky
+    position: sticky
+    top: -1px
+    .button
+        z-index: 100
 
 .contactus
     * 
