@@ -1,7 +1,9 @@
 <template>
-<section>
+<header>
+<section class="section is-marginless is-paddingless">
     <div class="column">
-        <div class="logo column is-three-fifths is-offset-one-fifth">JAWARA</div>
+        <div class="logo column is-three-fifths is-offset-one-fifth">
+            <a href="/">JAWARA</a></div>
         <div class="sublogo column is-three-fifths is-offset-one-fifth">ROTI & KUE</div>
         <div class="topnav">
             <a href="/" class="active">Home</a>
@@ -13,7 +15,7 @@
         <div class="column">
             <div class="navbar is-transparent">
                 <div class="navbar-brand">
-                    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <div class="navbar-burger burger is-centered" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -31,8 +33,8 @@
             </div>
         </div>
     </div>
-
 </section>
+</header>
 </template>
 
 <script>
@@ -63,9 +65,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-    export default {
-        mounted() {
-            console.log('Navigation mounted.')
-        }
-    }
 </script>
