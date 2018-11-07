@@ -2,7 +2,11 @@
 <section class="section is-marginless is-paddingless">
 	<div class="container" style="margin-bottom:3%;">
 		<!-- main menu navigation -->
+<<<<<<< HEAD
 		<img src="/img/divider1.png">
+=======
+		<img src="/img/divider.png">
+>>>>>>> 223b33c3a36ae0bbbe15bb2e5c2f98a697d4d228
 		<div class="column is-12">
 			<div class="buttons has-addons is-centered">
 				<span class="button catalog"><a href="#cake">Cake</a></span>
@@ -12,12 +16,16 @@
 				<span class="button catalog"><a href="#others">Others</a></span>
 			</div>
 		</div>
+<<<<<<< HEAD
 		<img src="/img/divider2.png">
+=======
+		<img src="/img/divider2.png" style="margin-bottom:3%">
+>>>>>>> 223b33c3a36ae0bbbe15bb2e5c2f98a697d4d228
 		<!-- main menu ends -->
 	<div class="columns is-multiline is-mobile">
 	<!-- section 1 submenu -->
 		<div class="column is-full">
-			<a class="button is-fullwidth">Cake</a>
+			<a class="button is-uppercase is-fullwidth">Cake</a>
 		</div>
 	<!-- submenu 1 end -->
 	<!-- section1 -->
@@ -72,7 +80,7 @@
 		<!-- section 1 end -->
 		<!-- section 2 submenu -->
 			<div class="column is-full">
-				<a class="button is-fullwidth" id="bread">Bread</a>
+				<a class="button is-uppercase is-fullwidth" id="bread">Bread</a>
 			</div>
 		<!-- submenu 2 end -->
 		<!-- section2 -->
@@ -128,7 +136,7 @@
 
 		<!-- section 3 submenu -->
 			<div class="column is-full">
-				<a class="button is-fullwidth" id="cookies">Cookies</a>
+				<a class="button is-uppercase is-fullwidth" id="cookies">Cookies</a>
 			</div>
 		<!-- submenu 3 end -->
 		<!-- section3 -->
@@ -184,7 +192,7 @@
 
 		<!-- section 4 submenu -->
 			<div class="column is-full">
-				<a class="button is-fullwidth" id="snacks">Snacks</a>
+				<a class="button is-uppercase is-fullwidth" id="snacks">Snacks</a>
 			</div>
 		<!-- submenu 4 end -->
 		<!-- section4 -->
@@ -239,7 +247,7 @@
 		<!-- section 4 end -->
 		<!-- section 5 submenu -->
 			<div class="column is-full">
-				<a class="button is-fullwidth" id="others">Others</a>
+				<a class="button is-uppercase is-fullwidth" id="others">Others</a>
 			</div>
 		<!-- submenu 5 end -->
 		<!-- section5 -->
