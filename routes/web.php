@@ -27,3 +27,11 @@ Route::get('/adminpage', function () {
     return view('adminpage');
 });
 
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('/', 'Admin\IndexController@index');
+    Route::get('/logout', 'Auth\LoginController@logout');
+
+    Auth::routes();
+});
+
+Route::get('/home', 'HomeController@index')->name('home');
