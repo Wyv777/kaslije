@@ -14,6 +14,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -31,12 +32,12 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item" href="/admin/products">
                 Product
             </a>
       
             <a class="navbar-item" href="/admin/categories">
-                Cateogry
+                Category
             </a>
 
             <a class="navbar-item">
@@ -70,5 +71,6 @@
 
     <script type="text/javascript" src="https://admin.vuebulma.com/"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    @yield('script')
 </body>
 </html>

@@ -6,6 +6,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Session;
 
 class CategoryController extends Controller
 {
@@ -92,7 +93,21 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+            'is_active' => 'required',
+            'parent_id' => 'required',
+            'slug'=> 'required',
+        ]);
+
+        $category = Category::find($id);
+        $category->name = $request->name;
+        $category->is_active = $request->is_active;
+        $category->parent_id = $request->parent_id;
+        $category->slug = $request->slug;
+        $category->save();
+
+        return redirect('/admin/categories');
     }
 
     /**
@@ -103,6 +118,12 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $category = Category::find($id);
+        if(count($category->children) > 0)
+        Session::flash('message', 'Please delete all child category first');
+        return redirect('/admin/categories/'.$id.'/edit');
+
+        $category->delete();
+        return redirect('/admin/categories');
     }
 }
