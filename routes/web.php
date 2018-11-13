@@ -28,10 +28,17 @@ Route::get('/adminpage', function () {
 });
 
 Route::group(['prefix' => 'admin'], function () {
+    Auth::routes();
+});
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::get('/', 'Admin\IndexController@index');
     Route::get('/logout', 'Auth\LoginController@logout');
 
-    Auth::routes();
+    Route::resources([
+        'categories' => 'Admin\CategoryController',
+        'products' => 'Admin\ProductController'
+    ]);
 });
 
 Route::get('/home', 'HomeController@index')->name('home');

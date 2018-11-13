@@ -35,7 +35,7 @@
                 Product
             </a>
       
-            <a class="navbar-item">
+            <a class="navbar-item" href="/admin/categories">
                 Cateogry
             </a>
 
@@ -64,7 +64,7 @@
         </div>
         
     </nav>
-    <div class="container">
+    <div style="padding-left:10%; padding-right:10%">
         @yield('content')
     </div>
 
