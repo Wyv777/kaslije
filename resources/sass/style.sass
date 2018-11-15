@@ -42,10 +42,14 @@
 
 #bg-1
     background: url('/img/left.jpg') no-repeat
-
+    +mobile()
+        padding: 15%
+        
 #bg-2
     background: url('/img/right.jpg') no-repeat
-
+    +mobile()
+        padding: 15%
+        
 #bg-3
     background: url('/img/jawara3.jpg') no-repeat
 
@@ -79,6 +83,7 @@
     margin: 21% 30% 21% 30%
     width: 40%
     padding: 1.7em 0 0.7em 0
+    text-align: center
     transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s
 
 .boxButton:hover

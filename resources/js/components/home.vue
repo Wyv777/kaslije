@@ -2,17 +2,17 @@
 <section class="section is-marginless is-paddingless">
     <div class="columns">
         <div class="column is-6" id="bg-1">
-            <button href="/catalog" class="boxButton">
+            <a href="/catalog" class="boxButton">
                 <p class="is-5 gold cursive">Browse</p>
                 <p class="subtitle white">OUR MENU</p>
-            </button>
+            </a>
         </div>
 
         <div class="column is-6" id="bg-2">
-            <button href="/about" class="boxButton">
+            <a href="/about" class="boxButton">
                 <p class="is-5 gold cursive">Discover</p>
                 <p class="subtitle white">OUR STORY</p>
-            </button>
+            </a>
         </div>
         
     </div>
