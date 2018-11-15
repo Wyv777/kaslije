@@ -2,11 +2,8 @@
 <section class="section is-marginless is-paddingless">
 	<div class="container" style="margin-bottom:3%;">
 		<!-- main menu navigation -->
-<<<<<<< HEAD
+
 		<img src="/img/divider1.png">
-=======
-		<img src="/img/divider.png">
->>>>>>> 223b33c3a36ae0bbbe15bb2e5c2f98a697d4d228
 		<div class="column is-12">
 			<div class="buttons has-addons is-centered">
 				<span class="button catalog"><a href="#cake">Cake</a></span>
@@ -16,11 +13,7 @@
 				<span class="button catalog"><a href="#others">Others</a></span>
 			</div>
 		</div>
-<<<<<<< HEAD
-		<img src="/img/divider2.png">
-=======
 		<img src="/img/divider2.png" style="margin-bottom:3%">
->>>>>>> 223b33c3a36ae0bbbe15bb2e5c2f98a697d4d228
 		<!-- main menu ends -->
 	<div class="columns is-multiline is-mobile">
 	<!-- section 1 submenu -->
