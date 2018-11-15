@@ -18,7 +18,7 @@
 	<div class="columns is-multiline is-mobile">
 	<!-- section 1 submenu -->
 		<div class="column is-full">
-			<a class="button is-uppercase is-fullwidth">Cake</a>
+			<a class="button is-uppercase is-fullwidth" id="cake">Cake</a>
 		</div>
 	<!-- submenu 1 end -->
 	<!-- section1 -->
