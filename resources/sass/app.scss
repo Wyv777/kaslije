@@ -19,3 +19,14 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.imagePreview {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display: inline-block;
+  cursor: pointer;
+  background-image: url('');
+}

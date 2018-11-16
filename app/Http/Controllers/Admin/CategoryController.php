@@ -67,7 +67,7 @@ class CategoryController extends Controller
     {
         $category = Category::find($id);
         $category->parent_name = $category->parent->name;
-        return view('admin.category.show',['category'=>$category]);
+        return view('admin.category.show',['category' => $category]);
     }
 
     /**

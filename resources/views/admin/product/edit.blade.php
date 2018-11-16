@@ -3,8 +3,8 @@
     @if (Session::has('message'))
         <div>{{ Session::get('message') }}</div>
     @endif
-    <div>Create New category</div>
-    {{ Form::open(array('url' => '/admin/categories/'.$category->id, 'method' => 'put')) }}
+    <div>Create New Product</div>
+    {{ Form::open(array('url' => '/admin/products/'.$category->id, 'method' => 'put')) }}
         <div class="field">
             <label class="label">Category Name</label>
             <div class="control">

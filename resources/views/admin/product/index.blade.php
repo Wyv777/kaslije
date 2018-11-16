@@ -1,10 +1,10 @@
 @extends('admin.layout.app')
 @section('content')
-    <a class="button" href="/admin/categories/create">Add Category</a>
-    <div>Category List</div>
+    <a class="button" href="/admin/products/create">Add Product</a>
+    <div>Product List</div>
     <ul>
-        @foreach ($categories as $category)
-            @include('admin.category.categorylist',['category' => $category])
+        @foreach ($products as $product)
+            <li><a href="/admin/products/{{$product->id}}">{{$product->name}}</a></li>
         @endforeach
     </ul>
 @endsection
