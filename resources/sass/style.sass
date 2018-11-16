@@ -1,3 +1,12 @@
+html
+    scroll-behavior: smooth
+    
+.aboutuscontent
+    img
+        max-height: 250px
+    p
+        margin: 7% !important
+
 @font-face
     font-family: poppins
     src: url(https://fonts.gstatic.com/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2)
@@ -13,7 +22,6 @@
 .topnav 
     font-family: playfair
     font-style: italic
-    overflow: hidden
     margin: 0 10% 0 10%
     border-top: 1px grey solid
     text-align: center
@@ -47,7 +55,7 @@
         background: url('/img/right1.png') no-repeat
         background-position: top
         padding: 13%
-  
+
 .container 
     position: relative
     text-align: center
@@ -167,12 +175,47 @@
 .copy
     a
         color: white
+.catalog
+    text-transform: lowercase
+    font-family: playfair
+    border-radius: 0 !important
+    a
+        color: #B3843F
+        padding: 0 30px
+    a:hover
+        color: white
+    +mobile()
+        a
+            padding: 0
+
+.catalog:hover
+    background-color: #B3843F
+    a
+        color: white
 
 .main-title
     color: #2d2d2d
     text-align: center
     text-transform: capitalize
     padding: 0.7em 0
+
+.catalog
+    text-transform: lowercase
+    font-family: playfair
+    border-radius: 0 !important
+    a
+        color: #B3843F
+        padding: 0 30px
+    a:hover
+        color: white
+    +mobile()
+        a
+            padding: 0
+
+.catalog:hover
+    background-color: #B3843F
+    a
+        color: white
 
 .content
     position: relative
@@ -222,6 +265,12 @@
     .product-store
         width: 25%
         padding: 5px
+
+.is-sticky
+    position: sticky
+    top: -1px
+    .button
+        z-index: 100
 
 .contactus
     * 
